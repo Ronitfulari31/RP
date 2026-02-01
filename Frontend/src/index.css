@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #6366F1;
+  --color-success: #10B981;
+  --color-background: #F9FAFB;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-gray-900 font-sans antialiased;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-primary text-white px-6 py-2 rounded-lg font-medium transition-all hover:brightness-110 active:scale-95 shadow-sm;
+  }
+  
+  .btn-success {
+    @apply bg-success text-white px-8 py-3 rounded-xl font-bold text-lg transition-all hover:brightness-105 active:scale-95 shadow-lg shadow-success/20;
+  }
+
+  .card {
+    @apply bg-white rounded-3xl shadow-xl border border-gray-100/50 backdrop-blur-sm;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}

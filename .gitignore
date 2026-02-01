@@ -1,0 +1,42 @@
+# 🤖 NLP Project Unified Git-Ignore
+
+# 🚀 BACKEND EXCLUSIONS (Scripts, Tests, Reports)
+Backend/scripts/
+Backend/tests/
+Backend/reports/
+Backend/data/
+Backend/outputs/
+Backend/uploads/
+
+# 🌐 FRONTEND EXCLUSIONS
+Frontend/node_modules/
+Frontend/dist/
+Frontend/.env
+Frontend/.env.local
+Frontend/.env.development.local
+Frontend/.env.test.local
+Frontend/.env.production.local
+
+# 🐍 PYTHON / ENVIRONMENT
+venv/
+venv311/
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.flaskenv
+
+# 📂 SHARED GENERIC
+*.txt
+*.log
+*.bak
+*.tmp
+
+# 📦 OS / IDE / TOOLS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+node_modules/
+dist/
+build/

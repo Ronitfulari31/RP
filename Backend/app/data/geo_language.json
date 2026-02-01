@@ -1,0 +1,55 @@
+{
+    "global": [
+        "en"
+    ],
+    "continent": {
+        "Asia": [
+            "en"
+        ],
+        "Europe": [
+            "en"
+        ],
+        "Africa": [
+            "en"
+        ],
+        "North America": [
+            "en"
+        ],
+        "South America": [
+            "en"
+        ]
+    },
+    "country": {
+        "India": [
+            "hi",
+            "en"
+        ],
+        "France": [
+            "fr",
+            "en"
+        ],
+        "Germany": [
+            "de",
+            "en"
+        ],
+        "Japan": [
+            "ja",
+            "en"
+        ]
+    },
+    "state": {
+        "Maharashtra": [
+            "mr",
+            "hi",
+            "en"
+        ],
+        "Tamil Nadu": [
+            "ta",
+            "en"
+        ],
+        "Karnataka": [
+            "kn",
+            "en"
+        ]
+    }
+}
